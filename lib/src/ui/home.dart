@@ -185,7 +185,7 @@ class HomePage extends StatelessWidget {
 
   // Body Methods:--------------------------------------------------------------
   Widget _buildIllustration() {
-    return Image.network(
+    return Image.asset(
       Assets.programmer3,
       color: themeColor,
       colorBlendMode: BlendMode.darken,
